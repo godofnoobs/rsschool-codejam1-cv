@@ -136,12 +136,12 @@
   background: #12123d;
   border-radius: 7px;
   box-shadow: 2px 3px 2px #333333;
-  transition: background-color box-shadow 300ms;
+  transition: background-color 300ms;
 }
 .skills-list li:hover {
   background-color: #daa520;
   box-shadow: none;
-  transition: background-color box-shadow 300ms;
+  transition: background-color 300ms;
 }
 .education-list {
   margin: 10px 35px 45px 0;
@@ -163,7 +163,7 @@
   width: 90%;
   padding: 10px 35px 10px 35px;
   min-height: 150px;
-  overflow: clip;
+  overflow: hidden;
 }
 .portfolio-examples figure {
   margin: 20px;
