@@ -27,12 +27,12 @@
   height: 160px;
   margin: 20px 0 0 35px;
   border-radius: 20px;
-  background: url("../images/photo.jpg");
+  background: url("photo.jpg");
   transition: background 400ms;
   user-select: none;
 }
 .info-photo:hover {
-  background: url("../images/photo_smiling.jpg");
+  background: url("photo_smiling.jpg");
   transition: background 400ms;
 }
 .info-nav {
@@ -160,10 +160,10 @@
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  padding: 10px 50px 10px 50px;
+  width: 90%;
+  padding: 10px 35px 10px 35px;
   min-height: 150px;
-  overflow: auto;
+  overflow: clip;
 }
 .portfolio-examples figure {
   margin: 20px;
