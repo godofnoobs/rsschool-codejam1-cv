@@ -8,7 +8,7 @@
   display: block;
   margin: 0 auto;
   width: 800px;
-  min-height: 450px;
+  min-height: 900px;
   overflow: auto;
   background-color: #cfdbeb;
   border: 1px dotted #333333;
@@ -29,6 +29,7 @@
   border-radius: 20px;
   background: url("../images/photo.jpg");
   transition: background 400ms;
+  user-select: none;
 }
 .info-photo:hover {
   background: url("../images/photo_smiling.jpg");
@@ -92,9 +93,6 @@
   height: 0;
   clear: both;
 }
-.main-section {
-  margin-bottom: 25px;
-}
 .section-heading {
   clear: right;
   width: 91%;
@@ -110,7 +108,7 @@
 }
 .section-text {
   clear: right;
-  margin: 10px 35px 0 0;
+  margin: 10px 35px 45px 0;
   float: right;
   width: 90%;
   font-size: 16px;
@@ -120,7 +118,7 @@
   color: #202049;
 }
 .skills-list {
-  margin: 10px 35px 0 0;
+  margin: 10px 35px 45px 0;
   display: flex;
   float: right;
   width: 90%;
@@ -144,4 +142,18 @@
   background-color: #daa520;
   box-shadow: none;
   transition: background-color box-shadow 300ms;
+}
+.education-list {
+  margin: 10px 35px 0 0;
+  float: right;
+  width: 90%;
+  overflow: auto;
+}
+.education-list li {
+  margin: 8px 0 8px 20px;
+  display: list-item;
+  font-size: 16px;
+  font-weight: 900;
+  list-style-type: square;
+  color: #27275e;
 }
